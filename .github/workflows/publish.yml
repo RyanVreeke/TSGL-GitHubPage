@@ -18,6 +18,6 @@ jobs:
 
     - name: Build the hello-world Docker image
       run: |
-        docker build . --tag ghcr.io/ryanvreeke/calvin_tsgl:v1
-        docker run ghcr.io/ryanvreeke/calvin_tsgl:v1
-        docker push ghcr.io/ryanvreeke/calvin_tsgl:v1
+        docker build . --tag ghcr.io/ryanvreeke/calvin_tsgl:latest
+        docker run -it ghcr.io/ryanvreeke/calvin_tsgl:latest
+        docker push ghcr.io/ryanvreeke/calvin_tsgl:latest
