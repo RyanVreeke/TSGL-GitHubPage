@@ -19,5 +19,5 @@ jobs:
     - name: Build the calvin_tsgl Docker image
       run: |
         docker build . --tag ghcr.io/ryanvreeke/calvin_tsgl:latest
-        docker run -it ghcr.io/ryanvreeke/calvin_tsgl:latest
+        docker run ghcr.io/ryanvreeke/calvin_tsgl:latest
         docker push ghcr.io/ryanvreeke/calvin_tsgl:latest
