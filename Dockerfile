@@ -1,4 +1,4 @@
-FROM ryanvreeke/calvin_tsgl:v1
+FROM ryanvreeke/calvin_tsgl:latest
 
 LABEL org.opencontainers.image.source="https://github.com/RyanVreeke/TSGL-GitHubPage"
 
