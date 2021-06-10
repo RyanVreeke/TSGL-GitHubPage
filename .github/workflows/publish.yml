@@ -16,7 +16,7 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Build the hello-world Docker image
+    - name: Build the calvin_tsgl Docker image
       run: |
         docker build . --tag ghcr.io/ryanvreeke/calvin_tsgl:latest
         docker run -it ghcr.io/ryanvreeke/calvin_tsgl:latest
