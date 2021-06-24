@@ -6,6 +6,7 @@ WORKDIR /home
 
 RUN apt-get update && apt-get -y upgrade 
 RUN apt-get -y install sudo
+RUN apt-get -y install apt-utils
 RUN apt-get -y install -f wget
 RUN apt-get -y install make
 RUN apt-get -y install tzdata
